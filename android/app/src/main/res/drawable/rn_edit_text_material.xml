@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used by React Native to style text inputs -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="0dp"
+    android:insetTop="0dp"
+    android:insetRight="0dp"
+    android:insetBottom="0dp">
+
+    <selector>
+        <item android:state_enabled="false">
+            <nine-patch android:src="@android:drawable/textfield_default_holo_light" />
+        </item>
+        <item android:state_pressed="false" android:state_focused="false">
+            <nine-patch android:src="@android:drawable/textfield_default_holo_light" />
+        </item>
+        <item>
+            <nine-patch android:src="@android:drawable/textfield_activated_holo_light" />
+        </item>
+    </selector>
+</inset>

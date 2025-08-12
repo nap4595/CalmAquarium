@@ -20,18 +20,25 @@ yarn-error.log*
 .expo-shared/
 dist/
 
-# Android
+# Android - 빌드 결과물만 제외, 필수 파일들은 포함
 android/app/build/
 android/build/
 android/.gradle/
-android/gradle/
-android/gradlew
-android/gradlew.bat
 android/local.properties
 android/.idea/
+# gradlew, gradlew.bat, gradle/wrapper는 포함하여 빌드 가능하도록 설정
+# 기본 리소스는 포함하되, 생성된 리소스만 제외
 android/app/src/main/assets/fonts/
-android/app/src/main/res/drawable-*/
-android/app/src/main/res/mipmap-*/
+android/app/src/main/res/drawable-hdpi/
+android/app/src/main/res/drawable-mdpi/
+android/app/src/main/res/drawable-xhdpi/
+android/app/src/main/res/drawable-xxhdpi/
+android/app/src/main/res/drawable-xxxhdpi/
+android/app/src/main/res/mipmap-hdpi/
+android/app/src/main/res/mipmap-mdpi/
+android/app/src/main/res/mipmap-xhdpi/
+android/app/src/main/res/mipmap-xxhdpi/
+android/app/src/main/res/mipmap-xxxhdpi/
 
 # iOS
 ios/build/

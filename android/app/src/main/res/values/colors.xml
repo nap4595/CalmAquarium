@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CalmAquarium App Colors -->
+    <color name="primary_color">#4A90E2</color>
+    <color name="water_clean">#87CEEB</color>
+    <color name="water_polluted">#8FBC8F</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F8F9FA</color>
+</resources>
